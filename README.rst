@@ -3,7 +3,7 @@
    generated for you.
 
 .. image:: https://travis-ci.org/joetsoi/ckanext-jsondatastore.svg?branch=master
-    :target: https://travis-ci.org/joetsoi/ckanext-jsondatastore
+  :target: https://travis-ci.org/joetsoi/ckanext-jsondatastore
 
 .. image:: https://coveralls.io/repos/joetsoi/ckanext-jsondatastore/badge.png?branch=master
   :target: https://coveralls.io/r/joetsoi/ckanext-jsondatastore?branch=master
@@ -12,18 +12,16 @@
 ckanext-jsondatastore
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
-
+.. A json datastore for CKAN that uses the postgres JSONB type. This
+   is just a proof of concept currently and not meant for actual use!
 
 ------------
 Requirements
 ------------
 
-For example, you might want to mention here which versions of CKAN this
-extension works with.
-
+SQLAlchemy 0.9.7
+Postgres 9.4
+CKAN master branch with upgraded requirements for sqlalchemy.
 
 ------------
 Installation
